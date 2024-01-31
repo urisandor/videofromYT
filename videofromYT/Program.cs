@@ -445,9 +445,178 @@
             // Console.ReadKey();
             #endregion
 
+            #region Calculator Program
+            // do
+            // {
+            //     double num1 = 0;
+            //     double num2 = 0;
+            //     double result = 0;
+            // 
+            //     Console.WriteLine("------------------");
+            //     Console.WriteLine("Calculator Program");
+            //     Console.WriteLine("------------------");
+            // 
+            //     Console.Write("Enter number 1: ");
+            //     num1 = Convert.ToDouble(Console.ReadLine());
+            // 
+            //     Console.Write("Enter number 2: ");
+            //     num2 = Convert.ToDouble(Console.ReadLine());
+            // 
+            //     Console.WriteLine("Enter an option: ");
+            //     Console.WriteLine("\t+ : Add");
+            //     Console.WriteLine("\t- : Subtract");
+            //     Console.WriteLine("\t* : Multiply");
+            //     Console.WriteLine("\t/ : Divide");
+            //     Console.Write("Enter an option: ");
+            // 
+            // 
+            //     switch (Console.ReadLine())
+            //     {
+            //         case "+":
+            //             result = num1 + num2;
+            //             Console.WriteLine($"Your result: {num1} + {num2} = " + result);
+            //             break;
+            //         case "-":
+            //             result = num1 - num2;
+            //             Console.WriteLine($"Your result: {num1} - {num2} = " + result);
+            //             break;
+            //         case "*":
+            //             result = num1 * num2;
+            //             Console.WriteLine($"Your result: {num1} * {num2} = " + result);
+            //             break;
+            //         case "/":
+            //             result = num1 / num2;
+            //             Console.WriteLine($"Your result: {num1} / {num2} = " + result);
+            //             break;
+            //         default:
+            //             Console.WriteLine("That was not a valid option");
+            //             break;
+            //     }
+            //     Console.Write("Would you like to continue? (Y = yes, N = No): ");
+            // } while (Console.ReadLine().ToUpper() == "Y");
+            // 
+            // Console.WriteLine("Bye!");
+            // Console.ReadKey();
+            #endregion
+
+            #region Arrays
+            // array = a variable that can store multiple values. fixed size
+
+            //String[] cars = {"BMW", "Mustang", "Corvette"};
+
+            // String[] cars = new string[3];
+            // 
+            // cars[0] = "Tesla";
+            // cars[1] = "Mustang";
+            // cars[2] = "Corvette";
+            // 
+            // for (int i = 0; i < cars.Length; i++)
+            // {
+            //     Console.WriteLine(cars[i]);
+            // }
+            // 
+            // Console.ReadKey();
+            #endregion
+
+            #region Foreach Loop
+            // foreach loop = a simpler way to iterate over an array, but it's less flexible
+
+            // String[] cars = { "BMW", "Mustang", "Corvette", "Mercedes", "Wolswagen" };
+            // 
+            // foreach (String car in cars)
+            // {
+            //     Console.WriteLine(car);
+            // }
+            // 
+            // Console.ReadKey();
+
+            #endregion
+
+            #region Method
+            // method  = performs a section of code, whenever it's called "invoked".
+            //           benefit = Let's us reuse code w/o writing it multiple times
+            //           Good practice is to capitalize method names (I forgot in this video)
+
+            // String name = "Bro";
+            // int age = 21;
+            //
+            // SingHappyBirthday(name, age);
+            //
+            // Console.ReadKey();
+
+            //static void SingHappyBirthday(String birthdayBoy, int yearsOld)
+            //{
+            //    Console.WriteLine("Happy birthday to you!");
+            //    Console.WriteLine("Happy birthday to you!");
+            //    Console.WriteLine("Happy birthday dear " + birthdayBoy);
+            //    Console.WriteLine("You are " + yearsOld + " years old!");
+            //    Console.WriteLine("Happy birthday to you!");
+            //    Console.WriteLine();
+            //    
+            //}
+            #endregion
+
+            #region Return Keyword
+            // return  = returns data back to the place where a method is invoked
+
+            // double x;
+            // double y;
+            // double result;
+            // 
+            // Console.WriteLine("Enter in number 1: ");
+            // x = Convert.ToDouble(Console.ReadLine());
+            // 
+            // Console.WriteLine("Enter in number 2: ");
+            // y = Convert.ToDouble(Console.ReadLine());
+            // 
+            // result = Multiply(x, y);
+            // 
+            // Console.WriteLine(result);
+            // 
+            // Console.ReadKey();
+
+            // static double Multiply(double x, double y)
+            // {
+            //     return x * y;
+            // }
+            #endregion
+
+            #region Methods Overloading
+
+            // static void Main2(string[] args)
+            // {
+            // 
+            // 
+            //     // method overloading  = methods share same name, but different parameters
+            //     //                       name + parameters = signature
+            //     //                       methods must have a unique signature
+            // 
+            //     double total;
+            // 
+            //     total = Multiply(2, 3, 4);
+            // 
+            //     Console.WriteLine(total);
+            //     Console.ReadKey();
+            // }
+            // 
+            // // static double Multiply(double a, double b)
+            // // {
+            // //     return a * b;
+            // // }
+            // static double Multiply(double a, double b, double c)
+            // {
+            //     return a * b * c;
+            // 
+            // }
+            #endregion
+
+
 
         }
+
     }
-    
 }
+
+
+ 
 
